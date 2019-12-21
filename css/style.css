@@ -2834,3 +2834,9 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+.subparagraph {
+  font-style: italic;
+  font-size: 70%;
+  line-height: 20px;
+}
