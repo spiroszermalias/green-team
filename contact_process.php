@@ -21,7 +21,6 @@
 	  if($responseKeys["success"]) {
 		if (isset($from) && isset($name) && isset($cmessage)) {
 			$subject = $_REQUEST['subject'];
-			$headers = "From: $from";
 			$headers = "From: " . $from . "\r\n";
 			$headers .= "Reply-To: ". $from . "\r\n";
 			$headers .= "MIME-Version: 1.0\r\n";
